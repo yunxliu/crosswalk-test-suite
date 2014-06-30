@@ -30,20 +30,17 @@ Authors:
 
 -->
 
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Speech_vocalizeString_exist</title>
-    <link rel='author' title='Intel' href='http://www.intel.com'>
-    <script src="../resources/unitcommon.js"></script>
-  </head>
-  <body>
-    <div id="log"></div>
-    <script>
-      test(function() {
-        assert_true("vocalizeString" in tizen.speech, "Speech has vocalizeString method");
-        check_method_exists(tizen.speech, "vocalizeString");
-      }, "Speech_vocalizeString_exist");
-    </script>
-  </body>
-</html>
+<meta charset="utf-8">
+<title>Speech Test: tizen.speech.vocalizeString</title>
+<link rel='author' title='Intel' href='http://www.intel.com'>
+<link rel="help" href="https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html">
+<script src="../resources/unitcommon.js"></script>
+
+<div id="log"></div>
+<script>
+  test(function() {
+    assert_true("vocalizeString" in tizen.speech, "Speech has vocalizeString method");
+    check_method_exists(tizen.speech, "vocalizeString");
+  }, "Speech_vocalizeString_exist");
+</script>
+
