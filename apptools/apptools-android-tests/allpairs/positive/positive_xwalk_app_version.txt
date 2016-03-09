@@ -1,0 +1,2 @@
+xwalk_package_id:org.xwalk.test
+xwalk_app_version:1,0.1,0.0.1

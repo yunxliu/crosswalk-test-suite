@@ -168,6 +168,11 @@
           <test_script_entry>/opt/apptools-android-tests/apptools/manifest_xwalk_target_platforms.py</test_script_entry>
         </description>
       </testcase>
+      <testcase component="Crosswalk App Tools/Manifest" execution_type="auto" id="Crosswalk_Manifest_Check" priority="P1" purpose="Check if packaged web application can be installed/launched/uninstalled successfully" status="approved" type="Functional" subcase="266">
+        <description>
+          <test_script_entry>/opt/apptools-android-tests/tests.py</test_script_entry>
+        </description>
+      </testcase>
     </set>
     <set name="common_module" type="nodeunit">
       <testcase component="Crosswalk App Tools/Common Module" execution_type="auto" id="Crosswalk_android_platform" priority="P1" purpose="Android - Validate if Crosswalk version is valid or invalid" status="approved" type="Functional">
