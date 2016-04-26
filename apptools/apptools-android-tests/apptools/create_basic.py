@@ -88,4 +88,4 @@ class TestCrosswalkApptoolsFunctions(unittest.TestCase):
         comm.clear("org.xwalk.test")
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main()     
